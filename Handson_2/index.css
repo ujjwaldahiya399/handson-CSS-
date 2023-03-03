@@ -174,7 +174,7 @@ input[type="reset"]{
 .menuItems {
     display: block;
     background-color: peachpuff;
-    height: 90vh;
+    height: 110vh;
 }
 .firstlineItems {
     display: flex;
@@ -191,7 +191,9 @@ input[type="reset"]{
     border: 3px solid green;
     border-radius: 35px;
 }
-
+.specialBox {
+    height:47vh ;
+}
 .secondlineItems {
     display: flex;
     height: 42vh;
