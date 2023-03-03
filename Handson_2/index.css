@@ -1,9 +1,10 @@
 .flex-container {
     display: flex;
-    border: 5px solid gray;
+    /* border: 5px solid gray; */
     height: 40vh;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
 }
 
 .flex-items{
@@ -12,13 +13,13 @@
     border: 10px solid red;
     border-radius: 40px;
     margin: 10px;
-    padding-left: 20px;
+    /* padding-left: -25px; */
     width: 50vh;
     height: 22vh;
     color: white;
     text-align: center;
     font-weight: bolder;
-    font-size: larger;
+    font-size: x-large;
     font-style: italic;
     justify-content: center;
     align-items: center;
@@ -26,13 +27,24 @@
     /* margin-right: 2%; */
     margin-bottom: 65px;
 }
+.welcome {
+    padding-right: 5%;
+    display: inline;
+    justify-content: left;
+    align-items: last baseline;
+}
+.welcomeTxt{
+    margin-left: 6.6%;
+    display: flex;
+    font-size: xx-large;
+}
 .flex-items-sp{
     display: flex;
     background-color: black;
     border: 10px solid red;
     border-radius: 40px;
     margin: 10px;
-    padding-left: 20px;
+    padding-left: 5px;
     width: 60vh;
     height: 10vh;
     color: white;
@@ -47,30 +59,46 @@
     margin-bottom: 65px;
     padding-bottom: 10px;
     position: absolute;
-    top: 7%;
+    top: 6.5%;
     /* top: 10%; */
-    left: 19%;
+    left: 20%;
     /* margin-right: 25%; */
 }
 .circleAndRegisterform {
     display: flex;
     justify-content: space-around;
     height: 70%;
-    background-color: aqua;
+    background-color: white;
     border-color: cadetblue;
     align-items: center;
-
 }
 .circle {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    background-color: rgb(118, 170, 165);
     border: 5px solid black;
     width: 55vh;
     height: 55vh;
     border-radius: 50%;
     margin-top: 10%;
+}
+.offerTxt,.spclThaliTxt,.rating{
+    padding-top: 9vh;
+    padding-left: 14vh;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: 2px underline ;
+    line-height: 34px;
+}
+.THALI {
+    padding-top: 3vh;
+    padding-left: 3vh;
+}
+.rate {
+    padding-top: 3vh;
+    padding-left: 11vh;
 }
 .registerForm {
     display: block;
@@ -173,7 +201,7 @@ input[type="reset"]{
 }
 .menuItems {
     display: block;
-    background-color: peachpuff;
+    background-color: white;
     height: 110vh;
 }
 .firstlineItems {
@@ -206,18 +234,12 @@ input[type="reset"]{
     color: rgb(48, 48, 121);
     font-weight: bolder;
 }
-/* .lineContent {
-    /* color: rgb(54, 54, 153); */
-    /* display: flex; */
-    /* justify-content: contents; */
-    /* text-align: center; */
-    /* margin-left: 25px; */
-/* } */ */
-
-span {
-    background-color: red;
+.lineContent {
+    color: rgb(48, 48, 121);
+    font-size: large;
+    font-weight: bold;
+    line-height: 1.7em; ;
 }
-li {
-    background-color: red;
-    margin: 3%;
+span{
+    margin-left: 14vh;
 }
