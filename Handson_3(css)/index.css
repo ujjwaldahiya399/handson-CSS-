@@ -1,0 +1,255 @@
+.main{
+    /* display: flex; */
+    background-color: grey;
+}
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-left: 32%;
+    height: auto;
+    border: 10px solid red;
+    border-radius: 10px;
+    box-shadow: 8px 8px rgb(159, 39, 59);
+}
+.welcometxt{
+    color: rgb(159, 39, 59);
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 2em;
+    text-shadow: 1.5px 1.5px rgb(159, 39, 59);
+    text-align: center;
+}
+hr {
+    color:rgba(244, 238, 238, 0.894);
+    height: 2px;
+}
+.body{
+    border:10px solid green ;
+}
+.addressandimg{
+    display: flex;;
+    justify-content: space-between;
+}
+.address,.img1{
+    width: 300px;
+    height: 315px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 10px solid red;
+    border-radius: 12px;
+    box-shadow: 8px 8px rgb(159, 39, 59);
+    margin-top: 0.3%;
+}
+.addrs{
+    margin-left:4px ;
+}
+.img11{
+    margin-right: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: flex;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    border-top: none;
+    box-shadow: -15px 2px 15px -15px ;
+}
+.addresstxt{
+    line-height: 2em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: 2px 1px;
+}
+.quoteratingoffer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.3%;
+    margin-bottom: 3%;
+}
+.rateusblock,.forserve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 315px;
+    border: 10px solid red;
+    border-radius: 12px;
+    box-shadow: 8px 8px rgb(159, 39, 59);
+    background-color: white;
+}
+.serveTxt{
+    font-style: normal;
+    font-weight:600;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 2px 1px;
+}
+.excitingoffers{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width:500px;
+    height: auto;
+    border: 10px solid red;
+    border-radius: 10px;
+    box-shadow: 8px 8px rgb(159, 39, 59);
+    margin-left: 32%;
+    top: 70%;
+    background-color: rgb(135, 193, 49);
+}
+.excitingofferstxt{
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    color: red;
+    text-shadow: 1px ;
+}
+.discounttxt{
+    font-style: italic;
+    font-size: 17px;
+    color: red;
+}
+.rateusblockxtra{
+    display: inline-block;
+    justify-content: center;
+    margin-right: 6em;
+    align-items: center;
+}
+.rateustxt{
+    /* display: flex; */
+    text-align: center;
+    font-style: normal;
+    font-weight:600;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 2px 1px;
+}
+.form{
+    /* display: block; */
+    justify-content: center;;
+    align-items: center;
+    text-align: center;
+}
+input[type=number]{
+    /* display: flex; */
+    width: 8em;
+}
+input[type=submit]{
+    color: red;
+}
+.welcometomystore{
+    display: block;
+    margin-top: 2%;
+    margin-left: 21%;
+    width: 60em;
+    justify-content: center;;
+    align-items: center;
+    border: 10px solid rgb(159, 39, 59);
+    background-color: green;
+    height: fit-content;
+}
+.wlcmtxt{
+    display: flex;
+    width: 24em;
+    height: 2em;
+    font-size: 2.5em;
+    font-weight:20px;
+    background-color: green;
+    padding-top: 17 px;
+    padding-bottom: 5px;
+    text-align: center;;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.exp{
+    display:flex ;
+    justify-content: space-between;
+    background-color: green;
+}
+.fruits{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 29.3em;
+    text-align: center;
+    background-color:greenyellow
+}
+.fruittxt{
+    color: black;
+    font-style: italic;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.fruitsname{
+    color: black;
+    font-style: italic;
+    font-size: normal;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    line-height: 2em;
+}
+.vegetables{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 29.3em;
+    text-align: center;
+    background-color:greenyellow
+
+}
+.vegetablestxt{
+    color: black;
+    font-style: italic;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.vegetablesname{
+    color: black;
+    font-style: italic;
+    font-size: normal;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    line-height: 2em;
+}
+.otherItmsBox{
+    width: 60.6em;
+    background-color: greenyellow;
+}
+.otheritmstxt{
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-top: 20px;
+}
+.othritms{
+    text-align: center;
+    font-style: italic;
+    font-size: normal;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    line-height: 2em;
+    background-color: greenyellow;
+    padding-bottom: 34px;
+}
